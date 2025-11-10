@@ -1,0 +1,88 @@
+# ==============================
+# ARCHIVO .gitignore PARA PYTHON + VS CODE
+# ==============================
+
+# --- Archivos y carpetas del sistema ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# --- Entorno virtual ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# --- Archivos de configuración local ---
+*.env
+*.ini
+*.cfg
+*.toml
+*.local
+config.json
+
+# --- Archivos de VS Code ---
+.vscode/
+.history/
+.settings/
+
+# --- Archivos de dependencias ---
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+poetry.lock
+
+# --- Archivos de bases de datos locales o temporales ---
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+# --- Archivos temporales del sistema operativo ---
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# --- Archivos generados por pruebas ---
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+pytest.xml
+.cache/
+.pytest_cache/
+coverage.xml
+
+# --- Archivos generados por documentación ---
+build/
+dist/
+docs/_build/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# --- Archivos de Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- Archivos de compilación de Cython o binarios ---
+*.so
+*.pyd
+*.dll
+*.exe
+*.o
+*.a
+*.out
+
+# --- Archivos de Docker ---
+*.pid
+docker-compose.override.yml
+
+# --- Archivos personalizados del usuario ---
+# (Aquí puedes añadir tus archivos locales que no quieres subir al repositorio)
+# ej. datos.csv, credenciales.json, resultados.xlsx
+
